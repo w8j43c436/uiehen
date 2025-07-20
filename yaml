@@ -1,3 +1,16 @@
+proxy-providers:
+ 香港:
+   type: http
+   path: ./profiles/proxies/香港.yaml
+   url: "http://47.122.55.243:3001/uiehen/download/collection/%E9%A6%99%E6%B8%AF?target=ClashMeta"
+   interval: 300
+proxy-groups:
+- name: PROXY
+  type: url-test
+  use:
+    - 香港
+  url: http://www.gstatic.com/generate_204
+  interval: 300
 rule-providers:
   reject:
     type: http
