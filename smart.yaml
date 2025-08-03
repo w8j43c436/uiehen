@@ -101,12 +101,12 @@ rules:
   - RULE-SET,reject,REJECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
-  - RULE-SET,google,smart
-  - RULE-SET,proxy,smart
+  - RULE-SET,google,Smart Group
+  - RULE-SET,proxy,Smart Group
   - RULE-SET,direct,DIRECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
-  - RULE-SET,telegramcidr,smart
+  - RULE-SET,telegramcidr,Smart Group
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,smart
+  - MATCH,Smart Group
