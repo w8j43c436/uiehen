@@ -16,7 +16,6 @@ proxy-groups:
   uselightgbm: ture
   collectdata: false
   strategy: sticky-sessions
-  sample-rate: 1
 rule-providers:
   reject:
     type: http
